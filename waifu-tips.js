@@ -6,11 +6,7 @@
 function loadWidget(waifuPath, apiPath) {
 	localStorage.removeItem("waifu-display");
 	sessionStorage.removeItem("waifu-text");
-	document.body.insertAdjacentHTML("beforeend", `<div id="waifu">
-			<div id="waifu-tips"></div>
-			<canvas id="live2d" width="300" height="300"></canvas>
-			<div id="waifu-tool">
-				
+	
 			</div>
 		</div>`);
 	// https://stackoverflow.com/questions/24148403/trigger-css-transition-on-appended-element
